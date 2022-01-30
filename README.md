@@ -4,7 +4,14 @@
 
 [민정](https://isakacindy.github.io/), [세원](https://nowesmik.github.io/), [상원](https://s-wlii.github.io/)
 
+### 상원
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=leo503801)](https://solved.ac/leo503801)
+
+### 세원
+[![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=eswj1102)](https://solved.ac/eswj1102)
+
+### 민정
+[![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=isakacindy)](https://solved.ac/isakacindy)
 
 ## 스터디 자료
 
