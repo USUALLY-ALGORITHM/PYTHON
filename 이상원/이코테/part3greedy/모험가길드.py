@@ -16,8 +16,10 @@ import collections
 N = int(input())
 fear = list(map(int, input().split()))
 result = 0
+print(fear.count(2))
 
 cnt = collections.Counter(fear)
+print(cnt)
 
 for item in cnt:
     if item <= cnt[item]:
