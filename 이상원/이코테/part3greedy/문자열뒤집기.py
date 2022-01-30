@@ -7,12 +7,11 @@ s에서 연속된 하나 이상의 숫자를 잡고 모두 뒤집는 것 -> 0을
 """
 
 s = str(input())
-
 split0 = list(filter(None, s.split("0")))
 split1 = list(filter(None, s.split("1")))
 
-lengh0 = len(split1)
-lengh1 = len(split0)
+lengh0 = len(split1) # 2
+lengh1 = len(split0) # 1
 
 if lengh0 > lengh1:
     print(lengh1)
