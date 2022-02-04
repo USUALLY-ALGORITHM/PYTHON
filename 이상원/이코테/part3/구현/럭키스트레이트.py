@@ -12,18 +12,21 @@
 n = str(input())
 
 
-def dfs(n):
+def mysolution(n):
+
     half = len(n) // 2
 
     left = n[:half]
     right = n[half:]
 
-    # 더하기만 하면 될거 같은데
+    left_result = 0
+    right_result = 0
 
-    if len(left) == 0:
-        return left, right
+    for l, r in zip(left, right):
+        left_result += int(l)
+        right_result += int(r)
 
-    return dfs(left), dfs(right)
+    print("LUCKY" if left_result == right_result else "READY")
 
 
-print(dfs(n))
+mysolution(n)
