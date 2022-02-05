@@ -1,6 +1,7 @@
 n = int(input())
 s = list(map(int, input().split()))
 a = [0 for i in range(n)]
+
 for i in range(n + 1):
     count = 0
     k = s[i - 1]
