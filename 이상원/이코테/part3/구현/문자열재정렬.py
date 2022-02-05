@@ -12,7 +12,6 @@ n = str(input())
 def mysolution(n):
     sortedN = sorted(n)
 
-
     result = [[] for _ in range(2)]
 
     for word in n:
@@ -26,4 +25,25 @@ def mysolution(n):
 
     print(f'{"".join(res)}{sum_num}')
 
+
+def bookSolution(n):
+    result = []
+    value = 0
+
+    # 문자를 하나씩 확인하며
+    for i in n:
+        # 알파벳인 경우 리스트에 삽입
+        if i.isalpha():
+            result.append(i)
+        else:
+            value += int(i)
+    result.sort()
+    # 숫자가 하나라도 존재하면 뒤에 삽입
+    if value != 0:
+        result.append(str(value))
+
+    print("".join(result))
+
+
 mysolution(n)
+bookSolution(n)

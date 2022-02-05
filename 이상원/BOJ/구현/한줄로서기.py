@@ -40,6 +40,7 @@ def error(lstLine, getLine):
     # ---------------------------------------------------------
 
 
+# -------------------------------------solved-------------------------
 line_dict = {}
 for i, item in enumerate(line):
     line_dict[i + 1] = item
@@ -53,7 +54,7 @@ for person, leftNum in sorted_list:
 
 result.remove(0)
 print(" ".join(map(str, result)))
-
+# solved --------------------------------------------------
 
 # 답은 나오는데 틀렸다고 나옴
 # error(line_list, line)
