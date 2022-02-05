@@ -8,10 +8,6 @@ N명의 사람이 매일 아침 한 줄로 선다
 2 1 1 0
 """
 
-from __future__ import print_function
-from audioop import reverse
-from linecache import getline
-
 
 n = int(input())
 line = list(map(int, input().split()))
