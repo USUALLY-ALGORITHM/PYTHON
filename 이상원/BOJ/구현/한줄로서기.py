@@ -6,6 +6,8 @@ N명의 사람이 매일 아침 한 줄로 선다
 
 4
 2 1 1 0
+1 2 3 4
+4 2 1 3
 """
 
 
@@ -44,11 +46,12 @@ def error(lstLine, getLine):
 line_dict = {}
 for i, item in enumerate(line):
     line_dict[i + 1] = item
+# 1: 2 2:1 ~~
 
 sorted_list = sorted(line_dict.items(), key=lambda val: val[0], reverse=True)
+print(sorted_list)
 
-
-result = [0]
+result = []
 for person, leftNum in sorted_list:
     result.insert(leftNum, person)
 
