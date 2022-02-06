@@ -50,11 +50,11 @@ def solution():
     start_e, start_s, start_m = 1, 1, 1
 
     cnt = 0
+
     while True:
         cnt += 1
-        if e == start_e and s == start_s and m == start_m:
+        if start_e == e and start_s == s and start_m == m:
             break
-
         start_e += 1
         start_s += 1
         start_m += 1
@@ -67,7 +67,6 @@ def solution():
             start_m = 1
 
     print(cnt)
-
 
 
 # timeout()
