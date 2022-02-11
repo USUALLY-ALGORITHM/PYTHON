@@ -22,6 +22,8 @@
 
 #### 강의: [동빈나 이코테 강의](https://www.youtube.com/playlist?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
 
+#### 예제 github: [예제](https://github.com/USUALLY-ALGORITHM/python-for-coding-test)
+
 #### python 코드 시각화: [python tutor](https://pythontutor.com/visualize.html#mode=edit)
 
 #### 사다리 타기 : [네이버 사다리](https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%EC%82%AC%EB%8B%A4%EB%A6%AC+%ED%83%80%EA%B8%B0+&oquery=%EB%84%A4%EC%9D%B4%EB%B2%84+%EC%82%AC%EB%8B%A4%EB%A6%AC&tqi=hQ%2FAylp0Jywss61Ug60ssssss4G-124748)
