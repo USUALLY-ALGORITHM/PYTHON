@@ -1,17 +1,13 @@
 """
 https://www.acmicpc.net/problem/2941
 """
-alpha = ["c=", "c-", "dz=", "d-", "lj", "nj", "s=", "z"]
+alpha = ["dz=", "c=", "c-", "d-", "lj", "nj", "s=", "z="]
 n = str(input())
 
-result = 0
-target = ""
-for i in n:
-    for j in alpha:
-        if i ==j[0]:
-            
-            
-        
-        
+cnt = 0
 
-print(result)
+for i in alpha:
+    if i in n:
+        n = n.replace(i, "?")
+
+print(len(n))
