@@ -22,7 +22,7 @@
 
 #### 강의: [동빈나 이코테 강의](https://www.youtube.com/playlist?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
 
-#### 예제 github: [예제](https://github.com/USUALLY-ALGORITHM/python-for-coding-test)
+#### 책 코드 예제 github: [예제](https://github.com/USUALLY-ALGORITHM/python-for-coding-test)
 
 #### python 코드 시각화: [python tutor](https://pythontutor.com/visualize.html#mode=edit)
 
