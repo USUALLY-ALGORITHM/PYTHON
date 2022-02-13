@@ -29,4 +29,24 @@ def mysolution(n):
     print("LUCKY" if left_result == right_result else "READY")
 
 
+def bookSolution(n):
+    length = len(n)
+    summary = 0
+
+    # 왼쪽 부분 자릿수 합 더하기
+    for i in range(length // 2):
+        summary += int(i)
+
+    # 왼쪽 부분 자릿수 합 빼기
+    for i in range(length // 2):
+        summary -= int(i)
+
+    # 왼쪽 부분과 오른쪽 부분의 자릿수 합이 동일한지 검사
+    if summary == 0:
+        print("LUCKY")
+    else:
+        print("READY")
+
+
 mysolution(n)
+bookSolution(n)
