@@ -2,7 +2,7 @@
 
 ## 🧑‍💻MEMBER
 
-[민정](https://isakacindy.github.io/), [세원](https://nowesmik.github.io/), [상원](https://s-wlii.github.io/)
+[민정](https://isakacindy.github.io/), [세원](https://nowesmik.github.io/), [상원](https://nowgnas.github.io/)
 
 ### 상원
 
