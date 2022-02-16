@@ -36,7 +36,7 @@ for i in range(n):
 # 정렬 이후에 큐로 옮기기 (낮은 번호의 바이러스가 먼저 증식하므로)
 data.sort()
 q = deque(data)
- 
+
 target_s, target_x, target_y = map(int, input().split())
  
 # 바이러스가 퍼져나갈 수 있는 4가지의 위치
