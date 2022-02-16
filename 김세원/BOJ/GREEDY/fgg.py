@@ -5,6 +5,7 @@ for i in range(n):
     age, name = map(str, input().split())
     age = int(age)
     arr.append((age, name))
+    hhhhhh
 
 arr.sort(key=lambda a: (a[0]))
 
