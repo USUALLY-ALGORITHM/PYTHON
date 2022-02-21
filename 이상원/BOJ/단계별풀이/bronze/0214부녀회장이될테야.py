@@ -3,27 +3,19 @@ https://www.acmicpc.net/problem/2775
 """
 
 
-def getNumOfPeople(apt, i, j):
-    if i == 0:
-        apt[i][j] = j + 1
-    elif j == 0:
-        apt[i][j] = 1
-    else:
-        apt[i][j] = apt[i][j - 1] + apt[i - 1][j]
-
-
-apt = [[0] * 14 for _ in range(14)]
-
-
 n = int(input())
-
-for i in range(n):
-    k = int(input())
+for _ in range(n):
+    k = int(input()) + 1
     n = int(input())
+    arr = [0] * n
 
-    for i in range(14):
-        for j in range(14):
-            getNumOfPeople(apt, i, j)
-        if i == k and j == n - 1:
-            break
-    print(apt[k][n - 1])
+    for floor in range(k):
+        for addr in range(n):
+            if arr[addr] == 0:
+                arr[addr] += addr + 1
+            else:
+                if addr == 0:
+                    continue
+                else:
+                    arr[addr] += arr[addr - 1]
+    print(arr[-1])
