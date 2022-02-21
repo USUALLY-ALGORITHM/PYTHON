@@ -2,19 +2,26 @@
 
 ## 🧑‍💻MEMBER
 
-[민정](https://isakacindy.github.io/), [세원](https://nowesmik.github.io/), [상원](https://nowgnas.github.io/)
-
 ### 상원
 
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=leo503801)](https://solved.ac/leo503801)
+
+BLOG: [nowgnas.github.io](https://nowgnas.github.io/)  
+Repository: [nowgnas/PYTHON](https://github.com/nowgnas/PYTHON)
 
 ### 세원
 
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=eswj1102)](https://solved.ac/eswj1102)
 
+BLOG: [nowesmik.github.io](https://nowesmik.github.io/)  
+Repository: [nowesmik/PYTHON](https://github.com/nowesmik/PYTHON)
+
 ### 민정
 
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=isakacindy)](https://solved.ac/isakacindy)
+
+BLOG: [isakacindy.github.io](https://isakacindy.github.io/)  
+Repository: [isakacindy/PYTHON](https://github.com/isakacindy/PYTHON)
 
 ## 📖스터디 자료
 
