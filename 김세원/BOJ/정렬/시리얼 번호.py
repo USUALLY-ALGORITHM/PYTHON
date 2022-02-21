@@ -8,6 +8,8 @@
 #
 # for i in arr:
 #     print(i)
+# push 를 위한
+
 
 n = int(input())
 
