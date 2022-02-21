@@ -2,19 +2,26 @@
 
 ## 🧑‍💻MEMBER
 
-[민정](https://isakacindy.github.io/), [세원](https://nowesmik.github.io/), [상원](https://nowgnas.github.io/)
-
 ### 상원
 
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=leo503801)](https://solved.ac/leo503801)
+
+BLOG: [nowgnas.github.io](https://nowgnas.github.io/)  
+Repository: [nowgnas/PYTHON](https://github.com/nowgnas/PYTHON)
 
 ### 세원
 
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=eswj1102)](https://solved.ac/eswj1102)
 
+BLOG: [nowesmik.github.io](https://nowesmik.github.io/)  
+Repository: [nowesmik/PYTHON](https://github.com/nowesmik/PYTHON)
+
 ### 민정
 
 [![Solved.ac tier](http://mazassumnida.wtf/api/v2/generate_badge?boj=isakacindy)](https://solved.ac/isakacindy)
+
+BLOG: [isakacindy.github.io](https://isakacindy.github.io/)  
+Repository: [isakacindy/PYTHON](https://github.com/isakacindy/PYTHON)
 
 ## 📖스터디 자료
 
@@ -55,6 +62,7 @@
 | 3회차    | 2022-02-06 | 🎈**Part2 DFS/BFS**<br> 꼭 필요한 자료구조 기초: 민정<br>탐색 알고리즘DFS/BFS: 세원<br> 음료수 얼려 먹기,<br>미로 탈출: 상원<br>💡**Part3 구현**<br>럭키 스트레이트<br>문자열 재정렬<br>문자열 압축<br>🪜**BaekJoon: 구현**<br>[날짜 계산](https://www.acmicpc.net/problem/1476)<br>[제로](https://www.acmicpc.net/problem/10773)<br>[한 줄로 서기](https://www.acmicpc.net/problem/1138) | 해피 설날😆                                                                                                                                                                       |
 | 4회차    | 2022-02-13 | 🎈**Part2 정렬문제**<br>선택, 삽입: 세원<br>퀵, 계수: 민정<br>문제 2, 3, 4: 상원<br> 💡**Part3 DFS/BFS**<br>특정 거리의 도시 찾기<br>연구소<br>경쟁적 전염<br> 🪜**BaekJoon DFS/BFS**<br>[데스 나이트](https://www.acmicpc.net/problem/16948)<br>[숫자판 점프](https://www.acmicpc.net/problem/2210)                                                                                      | 문제 풀이 화이팅!!😊<br>오프라인 스터디: 02/23 (WED)👋                                                                                                                            |
 | 5회차    | 2022-2-21  | 🎈**Part2 이진 탐색**<br>범위를 반씩 좁혀가는 탐색: 상원<br>부품 찾기: 세원<br>떡볶이 떡 만들기: 민정<br>💡**Part3 정렬 문제**<br>국영수<br>안테나<br>🪜**BaekJoon 정렬**<br>[나이순 정렬](https://www.acmicpc.net/problem/10814)<br>[시리얼 번호](https://www.acmicpc.net/problem/1431)                                                                                                  | 🎇오프라인 스터디🎇<br>장소: 종로 3가<br>시간: 3시<br>문제 풀이:<br>[소수 사이 수열](https://www.acmicpc.net/problem/3896)<br>[이장님 초대](https://www.acmicpc.net/problem/9237) |
+| 6회차    | 2022-02-28 | 🎈**Part2 다이나믹 프로그래밍**<br>다이나믹 프로그래밍: 세원<br>문제 2, 3: 상원<br>문제 4, 5: 민정<br>💡**Part3 이진 탐색 문제**<br>정렬된 배열에서 특정 수의 개수 구하기<br>고정점 찾기<br>🪜**BaekJoon**<br>[소수 사이의 수열](https://www.acmicpc.net/problem/3896)<br>[과자 나눠주기](https://www.acmicpc.net/problem/16401)                                                          | 🍕스터디 정보🍕<br>장소: 종로 3가<br>시간: 3시<br>                                                                                                                                |
 
 <!--
 🎈**Part2 구현**

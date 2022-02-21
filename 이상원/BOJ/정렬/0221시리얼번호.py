@@ -9,7 +9,7 @@ for i in range(n):
     arr.append(str(input()))
 
 
-def numSum(word):
+def numSum(word:str):
     cnt = 0
     for i in word:
         if i.isdigit():
