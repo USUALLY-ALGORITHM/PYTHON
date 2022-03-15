@@ -1,8 +1,24 @@
 '''
 https://www.acmicpc.net/problem/1647
-'''
 
+7 12
+1 2 3
+1 3 2
+3 2 1
+2 5 2
+3 4 4
+7 3 6
+5 1 5
+1 6 2
+6 4 1
+6 5 3
+4 5 3
+6 7 4
+
+'''
 # 특정 원소가 속한 집합을 찾기
+
+
 def find_parent(parent, x):
     # 루트 노드가 아니라면, 루트 노드를 찾을 때까지 재귀적으로 호출
     if parent[x] != x:
@@ -10,6 +26,8 @@ def find_parent(parent, x):
     return parent[x]
 
 # 두 원소가 속한 집합을 합치기
+
+
 def union_parent(parent, a, b):
     a = find_parent(parent, a)
     b = find_parent(parent, b)
@@ -18,9 +36,10 @@ def union_parent(parent, a, b):
     else:
         parent[a] = b
 
+
 # 노드의 개수와 간선(Union 연산)의 개수 입력받기
 v, e = map(int, input().split())
-parent = [0] * (v + 1) # 부모 테이블 초기화
+parent = [0] * (v + 1)  # 부모 테이블 초기화
 
 # 모든 간선을 담을 리스트와, 최종 비용을 담을 변수
 edges = []
@@ -38,7 +57,7 @@ for _ in range(e):
 
 # 간선을 비용순으로 정렬
 edges.sort()
-last = 0 # 최소 신장 트리에 포함되는 간선 중에서 가장 비용이 큰 간선
+last = 0  # 최소 신장 트리에 포함되는 간선 중에서 가장 비용이 큰 간선
 
 # 간선을 하나씩 확인하며
 for edge in edges:
