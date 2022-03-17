@@ -1,4 +1,4 @@
-n=int(input())
+n = int(input())
 data = []
 
 for i in str(n):
