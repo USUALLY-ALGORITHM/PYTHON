@@ -14,3 +14,8 @@ n = int(inputs())
 nums = []
 for item in range(n):
     nums.append(int(inputs()))
+nums.sort(reverse=True)
+answer = []
+for i in range(n):
+    answer.append(nums[i]*(i+1))
+print(max(answer))
