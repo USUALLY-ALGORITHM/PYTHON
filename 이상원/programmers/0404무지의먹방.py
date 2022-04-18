@@ -15,8 +15,7 @@ https://programmers.co.kr/learn/courses/30/lessons/42891?language=python3
 #             food_times[index] -= 1
 #         elif food_times[index]==0:
 
-            
-
+# .
 #     return answer
 import heapq
 
@@ -46,6 +45,7 @@ def solution(food_times, k):
     # 남은 음식 중에서 몇 번째 음식인지 확인하여 출력
     result = sorted(q, key=lambda x: x[1])  # 음식의 번호 기준으로 정렬
     return result[(k - sum_value) % length][1]
+
 
 if __name__ == '__main__':
     food_times = [3, 1, 2]
