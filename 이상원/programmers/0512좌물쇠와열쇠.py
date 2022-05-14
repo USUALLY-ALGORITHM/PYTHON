@@ -13,7 +13,7 @@
 
 
 '''
-
+# https://ysyblog.tistory.com/126
 # 파이썬
 
 
